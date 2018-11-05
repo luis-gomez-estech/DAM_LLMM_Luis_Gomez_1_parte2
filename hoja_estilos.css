@@ -1,0 +1,229 @@
+	
+	/* ESTILOS EN GENERAL */
+
+
+		body{
+		background-image: url(./imagenes/fondo5.jpg);
+		}
+        
+        h3 {
+        margin-left: 30px; margin-right: 30px
+        }
+		
+		h4 {
+		text-align: center; color:#fff;margin-left: 30px; margin-right: 30px
+		}
+		
+		p {
+		color: rgba(0,0,0,0.6);font-size: 1em; margin-left: 10%; margin-right: 10%
+		}
+		
+		
+		address {
+		text-align: center;color:#000;border: 4px double;margin-left: 30px; margin-right: 30px; padding: 20px;
+		}
+		
+		a {
+		color:grey;border: 2px;
+		}
+		
+		video {
+		text-align: center;
+		}
+
+		.boton_ir_arriba {
+			text-align:center;background: #000; color: #fff; padding: 10px;width: 80px;
+		}
+	   
+	    .boton_ir_arriba:hover {
+	    	background: rgba(0,0,0,0.5);
+	    }
+		
+		.logo_cabecera {
+			width:30px !important;margin-right: 10px
+		}
+
+	
+		/* ESTILOS PAGINA PRINCIPAL */
+
+
+		.titulo {
+			text-align:center; color:#3e8090; background: rgba(0,0,0,0.2);padding-top: 30px; padding-bottom: 30px; border-left:6px solid #fff; border-right:6px solid #fff
+		}
+		
+		#descripcion {
+			font-weight: bold
+		}
+	
+		#div_cabecera {
+			background: rgba(0,0,0,0.2);padding-top: 20px; padding-bottom: 20px; margin:0px 30px 30px 30px;
+		}
+	
+		#titulo_resumen {
+			color:#000;text-align: center;
+		}
+	
+		#resumen {
+			color:#fff;text-align: center; background-image: url(./imagenes/fondo.jpg); padding:30px; border: 4px double #fff
+		}
+	
+		.titulos_h2 {
+			text-align:center;font-weight: bold
+		}		
+	
+		.series {
+			color:#000;text-align: center;font-weight: bold ;background:#3e8090; padding:10px; border: 4px double #fff;margin-left: 30px; margin-right: 30px;
+		}
+	
+		.boton_enlace  {
+			text-align: center; color:#fff; background: #3e8090; padding: 10px;width: 110px;border:2px solid #000;
+		}
+	
+		.boton_enlace:hover  {
+			color:#6255b5; background: #fff;
+		}
+	
+		#direccion {
+			background-image: url(./imagenes/fondo.jpg);padding: 20px;
+		}
+	
+	   .imagenes {
+	   	border: 2px double #000; border-radius: 50%;
+	   	}
+
+	   .centrado{
+	   	margin:10px auto;display:block;
+	   }
+
+	
+	
+	/* ESTILOS SEGUNDA PAGINA */  
+
+		.titulo2 {
+			text-align:center; color:#fff; background: #222;padding-top: 30px; padding-bottom: 30px;
+			}
+		 .centrado_pag_2 {
+		 	text-align: center !important
+		 }
+		
+		.precio {
+			text-align: center;font-weight: bold
+		}
+		
+		.listado_caracteristicas {
+			margin-left: 30px
+		}
+		
+		.linea {
+			width: 300px;
+		}
+		
+		.boton_volver {
+			text-align: center; color:#000; background: #fff; padding: 8px;width: 200px;border: 2px dotted #000;border-radius: 20px;
+		}
+		
+		#titulo_serie {
+			text-align: center;
+		}
+		
+		.imagenes_pag_bb {
+			margin-left: 30px;border: 6px solid #fff;
+		}
+
+	 
+	/* ESTILOS MENU */
+
+		   .menu {
+		   	text-align: center;
+		   }
+		     .botones_menu {
+		     	display:inline;background: #3e8090; padding: 10px;border: 2px solid #000;border-radius: 20px;margin-left: 1em;
+		     }
+	 		  .botones_menu:hover {
+	 		  	background: rgba(255,255,255,0.5);
+	 		  	}
+				.color_texto_botones {
+					color: #000 !important;
+				}
+				   
+	 /* ESTILOS FOOTER */
+
+		   .footer {
+		   	text-align: center;
+		   }
+		     .botones_footer {
+		     	display:inline;background: #3e8090; padding: 10px;border: 2px solid #000;border-radius: 0px;margin-left: 1em;
+		     }
+	 		  .botones_footer:hover {
+	 		  	background: rgba(255,255,255,0.5); 
+	 		  	}
+				.color_texto_botones {
+					color: #000 !important;
+				}
+				
+
+
+	/* ESTILOS PARA ELEMENTOS FLOAT */
+	 
+
+			.logo_cabecera_left{
+				float: left;width: 60px;height: 60px;padding: 20px 40px 0px 40px;
+			}
+	
+			.logo_cabecera_right{
+				float: right;width: 60px;height: 60px;padding: 20px 40px 0px 40px;
+			}
+	
+			.titulo_elementos_float {
+				text-align: center;font-weight: bold;font-size: 20px;
+			}
+
+			.elemento1_float_left {
+				float: left;border: 2px solid #000;margin-left: 80px;margin-right: 20px;
+			}
+
+			.texto_junto_elemento_float1 {
+				margin-top: 30px;margin-right: 80px;
+			}
+
+			.elemento1_float_right {
+				float: right;border: 2px solid #000;margin-left: 40px;margin-right: 80px;
+			}
+			
+			.elemento2_float {
+				float: left;width: 18%;margin-left: 3%;margin-right: 3%;text-align:center
+			}
+
+			.clearfix {
+				overflow: auto;
+			}
+
+			.clear-right {
+				clear: right;
+			}
+
+			.clear-left {
+				clear: left;
+			}
+
+			.clear-none {
+				clear: none;
+			}
+
+
+	/* ESTILOS PARA POSICIONAMIENTO */
+	 
+			.elemento1_fixed{
+				position: fixed;right: 100px;top:0px;
+			}
+			.imagen_posicionada {
+				position:absolute;right: 0px;top: 200px;
+			}
+			.imagen_posicionada2  {
+				position:relative;left:50px;top: 0px;
+			}
+
+
+
+			
+		
